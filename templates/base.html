@@ -1,9 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-cn">
     <head>
-        <title>Tornado Boilerplate</title>
+        <meta charset="UTF-8">
+        <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css" rel="stylesheet">
+        {% block head %}{% end %}
     </head>
 
     <body>
-        <h1>It worked!</h1>
+        {% block body %}{% end %}
+        <script src="http://libs.baidu.com/jquery/1.10.2/jquery.js"></script>
+        <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.js"></script>
     </body>
 </html>

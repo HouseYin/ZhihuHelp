@@ -6,4 +6,4 @@ logger = logging.getLogger('boilerplate.' + __name__)
 
 class IndexHandler(BaseHandler):
     def get(self):
-        self.render("index/index.html")
+        self.render("login/login.html")
