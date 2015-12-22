@@ -4,6 +4,6 @@ import logging
 logger = logging.getLogger('boilerplate.' + __name__)
 
 
-class IndexHandler(BaseHandler):
+class LoginHandler(BaseHandler):
     def get(self):
         self.render("login/login.html")

@@ -1,0 +1,19 @@
+body {
+    background-color: #f6f5f5
+}
+
+#login {
+    max-width: 500px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    -moz-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+#login .form-control, #logo {
+    margin-bottom: 10px;
+}
