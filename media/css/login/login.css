@@ -3,7 +3,8 @@ body {
 }
 
 #login {
-    max-width: 500px;
+    max-width: 40%;
+    min-width: 400px;
     margin: 5% auto;
     padding: 20px;
     background-color: #FFF;
